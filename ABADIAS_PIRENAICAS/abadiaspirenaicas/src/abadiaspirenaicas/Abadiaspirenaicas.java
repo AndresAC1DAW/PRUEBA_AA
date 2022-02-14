@@ -16,12 +16,12 @@ public class Abadiaspirenaicas {
     
     
     public static void main(String[] args) {
-        Scanner cr = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int[] cantidadMontañas;
         int cantidad;
         
         
-            cantidad = cr.nextInt();
+            cantidad = sc.nextInt();
             
         
         while(cantidad != 0)
@@ -30,7 +30,7 @@ public class Abadiaspirenaicas {
             
             for(int i = 0; i < cantidadMontañas.length; i++)
             {
-                cantidadMontañas[i] = cr.nextInt();
+                cantidadMontañas[i] = sc.nextInt();
             }
             int max = cantidadMontañas[cantidadMontañas.length-1];
             int contador = 1;
@@ -43,7 +43,7 @@ public class Abadiaspirenaicas {
                 }
             }
             System.out.println(contador);
-            cantidad = cr.nextInt();
+            cantidad = sc.nextInt();
             
         }
         
